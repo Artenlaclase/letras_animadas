@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Efecto de Letras como Fuegos Artificiales</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        canvas { display: block; }
+        #controls {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div id="controls">
+        <input type="text" id="phraseInput" placeholder="Ingresa tu frase">
+        <button id="goButton">Animar!</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="letter.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
